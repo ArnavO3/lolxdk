@@ -1,10 +1,6 @@
-
 // var video = document.getElementById("myVideo");
 
-
-
 // var btn = document.getElementById("myBtn");
-
 
 // function myFunction() {
 //     if (video.paused) {
@@ -43,29 +39,20 @@
 // });
 
 AOS.init({
-    duration: 1200,
-    delay: 500
+  duration: 1200,
+  delay: 500,
 });
 
-
-
-
-
-
-
-
-// VANTA.WAVES({
-//     el: ".domain_name",
-//     mouseControls: true,
-//     touchControls: true,
-//     gyroControls: false,
-//     minHeight: 200.00,
-//     minWidth: 200.00,
-//     scale: 1.00,
-//     scaleMobile: 1.00,
-//     color: 0x3e83,
-//     shininess: 40.00,
-//     waveSpeed: 1.20
-// })
-
-
+VANTA.WAVES({
+  el: ".domain_name",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.0,
+  minWidth: 200.0,
+  scale: 1.0,
+  scaleMobile: 1.0,
+  color: "#203472",
+  shininess: 40.0,
+  waveSpeed: 1.2,
+});
